@@ -10,7 +10,7 @@
 
   <body lang="nl">
     <!-- navigatie -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
       <a class="navbar-brand" href="#">LOTR</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -67,7 +67,7 @@
           </p>
         </article>
 
-        <button type="button">
+        <button type="button" class=" btn btn-primary">
           Lees meer...
         </button>
 
@@ -110,7 +110,7 @@
             'In Dreams'.
           </p>
         </article>
-        <button type="button">
+        <button type="button" class=" btn btn-primary">
           Lees meer...
         </button>
       </section>
@@ -121,9 +121,10 @@
     <!-- einde container -->
   </div>
     <!-- de verhalen -->
-    <div id="verhaal">
+    <div class="container-fluid">
+    <div id="verhaal" class="row">
 
-      <section id="fellow">
+      <section id="fellow" class="col-md-4 col-sm-6">
         <h3>The Fellowship of the Ring</h3>
         <img src="img/fellowshipOfTheRings.jpg" alt="The Fellowship of the Ring" class="img-fluid">
         <h4>2001</h4>
@@ -183,7 +184,7 @@
         </div>
       </section>
 
-      <section id="twoTowers">
+      <section id="twoTowers" class="col-md-4 col-sm-6">
         <h3>The Two Towers</h3>
         <img src="img/lord-of-the-rings-two-towers.jpg" alt="The Two Towers">
         <h4>2002</h4>
@@ -236,7 +237,7 @@
 
       <!-- nieuwe kolom / sectie -->
 
-      <section id="kingReturn">
+      <section id="kingReturn" class="col-md-4 col-sm-12">
         <h3>The Return of the King</h3>
         <img src="img/returnOfTheKing.jpg" alt="The Return of the King">
         <h4>2003</h4>
@@ -291,6 +292,7 @@
       <!-- einde kolom -->
     </div>
     <!-- einde verhalen -->
+    </div>
     <hr>
     <footer>
       <small>©
